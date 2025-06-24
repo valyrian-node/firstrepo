@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std ;
+int main(){
+	 
+	 int a;
+	 cout<<"Enter a no:- ";
+	 cin>>a;
+	 
+	 bool flag=true; //means prime
+	 for(int i=2; i<=a/2; i++){
+	 	if(a%i==0){
+	 		flag=false;
+	 	}
+	 }
+	 
+	 if(a==1){
+	 	cout<<"Nor Prime Nor Composite";
+	 }
+	 else if(flag==true){
+	 	cout<<"Prime"<<endl;
+	 	
+	 	cout<<"Factors are :- "<< "1 and " << a;
+	 		
+	 }
+	 
+	 else{
+	 	cout<<"Composite"<<endl;
+	 	cout<<"Factors are :- "
+	 	for(int i=2; i<=a/2; i++){
+	 		
+	 		if(a%i==0){
+	 		cout<<i<< " ";
+	 	}
+	 }
+	 
+	 
+ }
