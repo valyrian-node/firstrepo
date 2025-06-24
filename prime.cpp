@@ -25,13 +25,14 @@ int main(){
 	 
 	 else{
 	 	cout<<"Composite"<<endl;
-	 	cout<<"Factors are :- "
+	 	cout<<"Factors are :- ";
 	 	for(int i=2; i<=a/2; i++){
 	 		
 	 		if(a%i==0){
 	 		cout<<i<< " ";
 	 	}
+		 }
+	 
+	 
 	 }
-	 
-	 
  }
